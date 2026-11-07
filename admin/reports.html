@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Recruitment reports | PESO Pio Duran Admin</title>
+    <link rel="icon" type="image/png" href="../assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+  <link rel="stylesheet" href="../assets/css/style.css" /><link rel="stylesheet" href="../assets/css/applicant/dashboard.css" /><link rel="stylesheet" href="../assets/css/applicant/sidebar.css" /><link rel="stylesheet" href="../assets/css/admin/admin.css" /><script src="../assets/js/applicant/sidebar.js" defer></script><link rel="stylesheet" href="../assets/css/theme.css" /><script src="../assets/js/portal-return.js" defer></script></head>
+  <body class="admin-portal">
+<a class="sr-only focus:not-sr-only" href="#main">Skip to main content</a>
+<header class="topbar"><div class="nav-wrap"><a class="brand" href="../landing-page.html"><img class="brand-icon peso-logo" src="../assets/images/PESO.png" alt="PESO logo" width="43" height="43" /><span><strong>PESO PIO DURAN</strong><small>ADMINISTRATION PORTAL</small></span></a><nav class="navlinks" aria-label="Public navigation"><a class="hide-mobile" href="../landing-page.html">&larr; Public Home</a><span class="tag">PESO Staff</span></nav></div></header>
+<nav class="mobile-nav" aria-label="Admin mobile navigation"><a href="dashboard.html">Overview</a><a href="employers.html">Employer approval</a><a href="job-seekers.html">Job seekers</a><a href="job-posts.html">Job Posts</a><a href="applications.html">Applications</a><a href="reports.html" aria-current="page">Reports</a><a href="analytics.html">Data analytics</a></nav>
+<div class="dash-layout"><aside class="sidebar"><div class="sidebar-label">ADMIN MENU</div><nav aria-label="Admin navigation"><a class="side-link" href="dashboard.html">Overview</a><a class="side-link" href="employers.html">Employer approval</a><a class="side-link" href="job-seekers.html">Job seekers</a><a class="side-link" href="job-posts.html">Job Posts</a><a class="side-link" href="applications.html">Applications</a><a class="side-link active" href="reports.html" aria-current="page">Reports</a><a class="side-link" href="analytics.html">Data analytics</a></nav></aside>
+<main id="main" class="dash-main">
+        <div class="mb-7">
+          <p
+            class="text-xs uppercase tracking-widest text-green-700 font-bold mb-2"
+          >
+            PESO administration
+          </p>
+          <h1 class="text-2xl md:text-3xl font-bold text-green-900">
+            Recruitment reports
+          </h1>
+          <p class="text-sm text-gray-500 mt-2 leading-6">
+            Review employer, job seeker, and successful application totals.
+          </p>
+        </div>
+        
+        <div class="bg-green-900 text-white rounded-lg p-6 mb-6">
+          <p class="text-xs uppercase tracking-widest text-green-200">
+            Reporting period
+          </p>
+          <h2 class="text-2xl font-bold mt-2">All-time recruitment summary</h2>
+          <p class="text-sm text-green-100 mt-2">
+            Sample snapshot as of November 7, 2026
+          </p>
+        </div>
+        <div class="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+          <div class="employer-metric metric-blue"><div class="metric-heading"><p>Registered employers</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">24</p>
+            <p class="text-xs text-gray-500 mt-2">
+              18 approved &middot; 4 pending &middot; 2 declined
+            </p>
+          </div>
+          <div class="employer-metric metric-blue"><div class="metric-heading"><p>Registered job seekers</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">180</p>
+            <p class="text-xs text-gray-500 mt-2">Sample registered accounts</p>
+          </div>
+          <div class="employer-metric metric-blue"><div class="metric-heading"><p>Applications submitted</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">320</p>
+            <p class="text-xs text-gray-500 mt-2">Across all employers</p>
+          </div>
+          <div class="employer-metric metric-green"><div class="metric-heading"><p>Successful applications</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">48</p>
+            <p class="text-xs text-gray-500 mt-2">
+              Hired applications in this prototype
+            </p>
+          </div>
+        </div>
+        <section
+          class="bg-white border border-gray-200 rounded-lg p-5 md:p-6 shadow-sm"
+        >
+          <h2 class="text-lg font-bold text-green-900 mb-4">Outcome summary</h2>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-green-50 text-gray-500 text-xs uppercase">
+                <tr>
+                  <th class="p-4 whitespace-nowrap">Metric</th>
+                  <th class="p-4 whitespace-nowrap">Sample total</th>
+                  <th class="p-4 whitespace-nowrap">Definition</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">Approved employers</td>
+                  <td class="p-4 align-top">18</td>
+                  <td class="p-4 align-top">
+                    Employer accounts approved by PESO
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">Hired applications</td>
+                  <td class="p-4 align-top">48</td>
+                  <td class="p-4 align-top">Applications marked Hired</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">Unique hired job seekers</td>
+                  <td class="p-4 align-top">42</td>
+                  <td class="p-4 align-top">
+                    Distinct applicants with at least one hired application
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">Application success rate</td>
+                  <td class="p-4 align-top">15%</td>
+                  <td class="p-4 align-top">
+                    48 hired &middot; 320 submitted applications
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">Average time to hire</td>
+                  <td class="p-4 align-top">18 days</td>
+                  <td class="p-4 align-top">
+                    Application submission to hired date; hired records only
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <div class="grid md:grid-cols-2 gap-6 mt-6">
+          <section
+            class="bg-white border border-gray-200 rounded-lg p-5 md:p-6 shadow-sm"
+          >
+            <h2 class="text-lg font-bold text-green-900 mb-4">
+              Applications by status
+            </h2>
+            <div class="mb-5">
+              <div class="flex justify-between text-sm mb-2">
+                <span>Submitted</span><strong>72</strong>
+              </div>
+              <div class="bg-green-50 rounded-full h-3">
+                <div
+                  class="bg-green-600 rounded-full h-3"
+                  style="width: 22.5%"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <div class="flex justify-between text-sm mb-2">
+                <span>Under review</span><strong>112</strong>
+              </div>
+              <div class="bg-green-50 rounded-full h-3">
+                <div
+                  class="bg-green-600 rounded-full h-3"
+                  style="width: 35%"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <div class="flex justify-between text-sm mb-2">
+                <span>Shortlisted</span><strong>64</strong>
+              </div>
+              <div class="bg-green-50 rounded-full h-3">
+                <div
+                  class="bg-green-600 rounded-full h-3"
+                  style="width: 20%"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <div class="flex justify-between text-sm mb-2">
+                <span>Hired</span><strong>48</strong>
+              </div>
+              <div class="bg-green-50 rounded-full h-3">
+                <div
+                  class="bg-green-600 rounded-full h-3"
+                  style="width: 15%"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <div class="flex justify-between text-sm mb-2">
+                <span>Withdrawn</span><strong>24</strong>
+              </div>
+              <div class="bg-green-50 rounded-full h-3">
+                <div
+                  class="bg-green-600 rounded-full h-3"
+                  style="width: 7.5%"
+                ></div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="bg-white border border-gray-200 rounded-lg p-5 md:p-6 shadow-sm"
+          >
+            <h2 class="text-lg font-bold text-green-900 mb-4">Report export</h2>
+            <p class="text-sm text-gray-600 leading-7">
+              A future report can include registered employers, registered job
+              seekers, successful applications, and recruitment duration for a
+              selected period.
+            </p>
+            <button
+              disabled
+              class="bg-green-700 text-white rounded-lg px-5 py-3 mt-5 opacity-50 cursor-not-allowed"
+            >
+              Download report
+            </button>
+            <p class="text-xs text-gray-500 mt-3">
+              Export is a visual placeholder in this prototype.
+            </p>
+          </section>
+        </div>
+        
+      
+<footer class="footer"><div class="container"><span>&copy; 2026 PESO Pio Duran</span><a href="../landing-page.html">Return to public home &rarr;</a></div></footer></main></div>
+</body></html>

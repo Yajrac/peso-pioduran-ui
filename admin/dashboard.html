@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Admin overview | PESO Pio Duran Admin</title>
+    <link rel="icon" type="image/png" href="../assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+  <link rel="stylesheet" href="../assets/css/style.css" /><link rel="stylesheet" href="../assets/css/applicant/dashboard.css" /><link rel="stylesheet" href="../assets/css/applicant/sidebar.css" /><link rel="stylesheet" href="../assets/css/admin/admin.css" /><script src="../assets/js/applicant/sidebar.js" defer></script><link rel="stylesheet" href="../assets/css/theme.css" /><script src="../assets/js/portal-return.js" defer></script><link rel="stylesheet" href="../assets/css/admin/overview.css" /></head>
+  <body class="admin-portal">
+<a class="sr-only focus:not-sr-only" href="#main">Skip to main content</a>
+<header class="topbar"><div class="nav-wrap"><a class="brand" href="../landing-page.html"><img class="brand-icon peso-logo" src="../assets/images/PESO.png" alt="PESO logo" width="43" height="43" /><span><strong>PESO PIO DURAN</strong><small>ADMINISTRATION PORTAL</small></span></a><nav class="navlinks" aria-label="Public navigation"><a class="hide-mobile" href="../landing-page.html">&larr; Public Home</a><span class="tag">PESO Staff</span></nav></div></header>
+<nav class="mobile-nav" aria-label="Admin mobile navigation"><a href="dashboard.html" aria-current="page">Overview</a><a href="employers.html">Employer approval</a><a href="job-seekers.html">Job seekers</a><a href="job-posts.html">Job Posts</a><a href="applications.html">Applications</a><a href="reports.html">Reports</a><a href="analytics.html">Data analytics</a></nav>
+<div class="dash-layout"><aside class="sidebar"><div class="sidebar-label">ADMIN MENU</div><nav aria-label="Admin navigation"><a class="side-link active" href="dashboard.html" aria-current="page">Overview</a><a class="side-link" href="employers.html">Employer approval</a><a class="side-link" href="job-seekers.html">Job seekers</a><a class="side-link" href="job-posts.html">Job Posts</a><a class="side-link" href="applications.html">Applications</a><a class="side-link" href="reports.html">Reports</a><a class="side-link" href="analytics.html">Data analytics</a></nav></aside>
+<main id="main" class="dash-main">
+        <div class="mb-7">
+          <p
+            class="text-xs uppercase tracking-widest text-green-700 font-bold mb-2"
+          >
+            PESO administration
+          </p>
+          <h1 class="text-2xl md:text-3xl font-bold text-green-900">
+            Admin overview
+          </h1>
+          <p class="text-sm text-gray-500 mt-2 leading-6">
+            Monitor local recruitment and employer registrations.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+          <div class="employer-metric metric-blue"><div class="metric-heading"><p>Registered employers</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">24</p>
+            <p class="text-xs text-gray-500 mt-2">
+              18 approved &middot; 4 pending &middot; 2 declined
+            </p>
+          </div>
+          <div class="employer-metric metric-blue"><div class="metric-heading"><p>Registered job seekers</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">180</p>
+            <p class="text-xs text-gray-500 mt-2">Sample registered accounts</p>
+          </div>
+          <div class="employer-metric metric-blue"><div class="metric-heading"><p>Applications submitted</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">320</p>
+            <p class="text-xs text-gray-500 mt-2">Across all employers</p>
+          </div>
+          <div class="employer-metric metric-green"><div class="metric-heading"><p>Successful applications</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">48</p>
+            <p class="text-xs text-gray-500 mt-2">
+              Hired applications in this prototype
+            </p>
+          </div>
+        </div>
+        <div class="admin-charts">
+<section class="dashboard-widget"><header><div><h2>Application activity</h2><p>Monthly submissions &middot; June&ndash;November 2026</p></div><span class="chart-caption">Sample data</span></header><div class="chart-total"><strong>320</strong><span>total applications</span></div>
+<div class="monthly-chart" role="img" aria-label="Monthly sample applications: June 40, July 48, August 55, September 52, October 60, November 65. Total 320.">
+<div class="chart-column"><span>40</span><div style="--bar-height:61.54%"></div><small>Jun</small></div><div class="chart-column"><span>48</span><div style="--bar-height:73.85%"></div><small>Jul</small></div><div class="chart-column"><span>55</span><div style="--bar-height:84.62%"></div><small>Aug</small></div><div class="chart-column"><span>52</span><div style="--bar-height:80%"></div><small>Sep</small></div><div class="chart-column"><span>60</span><div style="--bar-height:92.31%"></div><small>Oct</small></div><div class="chart-column"><span>65</span><div style="--bar-height:100%"></div><small>Nov</small></div>
+</div></section>
+<section class="dashboard-widget"><header><div><h2>Employer approvals</h2><p>Registration status breakdown</p></div><span class="chart-caption">Sample data</span></header><div class="chart-total"><strong>24</strong><span>registered employers</span></div><div class="approval-chart"><div><p><span>Approved</span><strong>18 <small>/ 75%</small></strong></p><div class="approval-track"><span style="width:75%;background:#15803d"></span></div></div><div><p><span>Pending review</span><strong>4 <small>/ 17%</small></strong></p><div class="approval-track"><span style="width:16.67%;background:#d97706"></span></div></div><div><p><span>Declined</span><strong>2 <small>/ 8%</small></strong></p><div class="approval-track"><span style="width:8.33%;background:#94a3b8"></span></div></div></div><a class="chart-link" href="employers.html">Manage employers &rarr;</a></section>
+</div>
+<section class="dashboard-widget recent-activities"><header><div><h2>Recent Activities</h2><p>Latest employer, applicant, and job post activity</p></div><span class="chart-caption">Sample records</span></header><div class="overflow-x-auto"><table><caption class="sr-only">Recent sample portal activities</caption><thead><tr><th scope="col">Entity / Item</th><th scope="col">Category</th><th scope="col">Activity Date</th><th scope="col">Current Status</th></tr></thead><tbody>
+<tr><th scope="row">Superkalan GAZ</th><td class="activity-category">Employer</td><td><time datetime="2026-09-14">Sep 14, 2026</time></td><td><span class="activity-status">Active</span></td></tr>
+<tr><th scope="row">Loloda Minimart</th><td class="activity-category">Employer</td><td><time datetime="2026-09-14">Sep 14, 2026</time></td><td><span class="activity-status">Active</span></td></tr>
+<tr><th scope="row">Ato&rsquo;s Kitchen</th><td class="activity-category">Employer</td><td><time datetime="2026-09-14">Sep 14, 2026</time></td><td><span class="activity-status">Active</span></td></tr>
+<tr><th scope="row">Jamaica Ramirez</th><td class="activity-category">Applicant</td><td><time datetime="2026-10-27">Oct 27, 2026</time></td><td><span class="activity-status registered">Registered</span></td></tr>
+<tr><th scope="row">Sales Staff / LPG Delivery Helper</th><td class="activity-category">Job Post</td><td><time datetime="2026-09-14">Sep 14, 2026</time></td><td><span class="activity-status">Approved</span></td></tr>
+<tr><th scope="row">Loloda Minimart</th><td class="activity-category">Job Post</td><td><time datetime="2026-09-14">Sep 14, 2026</time></td><td><span class="activity-status">Approved</span></td></tr>
+<tr><th scope="row">Kitchen Staff / Service Crew</th><td class="activity-category">Job Post</td><td><time datetime="2026-09-14">Sep 14, 2026</time></td><td><span class="activity-status">Approved</span></td></tr>
+</tbody></table></div></section><footer class="footer"><div class="container"><span>&copy; 2026 PESO Pio Duran</span><a href="../landing-page.html">Return to public home &rarr;</a></div></footer></main></div>
+</body></html>

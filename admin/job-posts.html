@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Job Posts | PESO Pio Duran Admin</title>
+    <link rel="icon" type="image/png" href="../assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+  <link rel="stylesheet" href="../assets/css/style.css" /><link rel="stylesheet" href="../assets/css/applicant/dashboard.css" /><link rel="stylesheet" href="../assets/css/applicant/sidebar.css" /><link rel="stylesheet" href="../assets/css/admin/admin.css" /><script src="../assets/js/applicant/sidebar.js" defer></script><link rel="stylesheet" href="../assets/css/theme.css" /><script src="../assets/js/portal-return.js" defer></script><link rel="stylesheet" href="../assets/css/admin/job-posts.css" /><script src="../assets/js/admin/job-posts.js" defer></script></head>
+  <body class="admin-portal">
+<a class="sr-only focus:not-sr-only" href="#main">Skip to main content</a>
+<header class="topbar"><div class="nav-wrap"><a class="brand" href="../landing-page.html"><img class="brand-icon peso-logo" src="../assets/images/PESO.png" alt="PESO logo" width="43" height="43" /><span><strong>PESO PIO DURAN</strong><small>ADMINISTRATION PORTAL</small></span></a><nav class="navlinks" aria-label="Public navigation"><a class="hide-mobile" href="../landing-page.html">&larr; Public Home</a><span class="tag">PESO Staff</span></nav></div></header>
+<nav class="mobile-nav" aria-label="Admin mobile navigation"><a href="dashboard.html">Overview</a><a href="employers.html">Employer approval</a><a href="job-seekers.html">Job seekers</a><a href="job-posts.html" aria-current="page">Job Posts</a><a href="applications.html">Applications</a><a href="reports.html">Reports</a><a href="analytics.html">Data analytics</a></nav>
+<div class="dash-layout"><aside class="sidebar"><div class="sidebar-label">ADMIN MENU</div><nav aria-label="Admin navigation"><a class="side-link" href="dashboard.html">Overview</a><a class="side-link" href="employers.html">Employer approval</a><a class="side-link" href="job-seekers.html">Job seekers</a><a class="side-link active" href="job-posts.html" aria-current="page">Job Posts</a><a class="side-link" href="applications.html">Applications</a><a class="side-link" href="reports.html">Reports</a><a class="side-link" href="analytics.html">Data analytics</a></nav></aside>
+<main id="main" class="dash-main"><div class="employer-heading"><div><div class="eyebrow" style="color:#15803d">PESO ADMINISTRATION</div><h1>Job Posts</h1></div><span class="tag">Monitoring</span></div>
+<p class="job-list-subtitle">Monitor employer vacancies in Pio Duran and view their requirements.</p>
+<section class="job-post-panel"><div class="job-post-toolbar"><div><h2>Employer job postings</h2><p id="post-count" role="status"></p></div><div class="job-post-filters"><label>Search<input type="search" id="post-search" placeholder="Job title or employer" /></label><label>Status<select id="post-status"><option value="all">All statuses</option><option>Published</option><option>Draft</option><option>Closed</option></select></label></div></div><div class="overflow-x-auto"><table><thead><tr><th scope="col">Job title / Employer</th><th scope="col">Date posted</th><th scope="col">Deadline</th><th scope="col">Status</th><th scope="col">View</th></tr></thead><tbody id="post-rows"></tbody></table></div><p id="post-empty" hidden>No matching job posts. Try another search or status.</p><p class="job-post-note">Sample records for monitoring. Employers manage their own postings.</p></section>
+<dialog id="post-dialog" aria-labelledby="post-dialog-title"><div class="post-modal-heading"><div><span>JOB POST DETAILS</span><h2 id="post-dialog-title"></h2><p id="post-employer"></p></div><button id="post-close" type="button" aria-label="Close job details">&times;</button></div><div class="post-modal-body"><dl id="post-details"></dl><h3>Responsibilities</h3><p id="post-description"></p><h3>Required skills</h3><p id="post-skills"></p><h3>Qualifications</h3><p id="post-qualifications"></p><p class="job-post-note">Sample vacancy details. This page does not approve, edit, or publish jobs.</p></div></dialog><footer class="footer"><div class="container"><span>&copy; 2026 PESO Pio Duran</span><a href="../landing-page.html">Return to public home &rarr;</a></div></footer></main></div>
+</body></html>

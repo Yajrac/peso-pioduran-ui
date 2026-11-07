@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Applications | PESO Pio Duran Admin</title>
+    <link rel="icon" type="image/png" href="../assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+  <link rel="stylesheet" href="../assets/css/style.css" /><link rel="stylesheet" href="../assets/css/applicant/dashboard.css" /><link rel="stylesheet" href="../assets/css/applicant/sidebar.css" /><link rel="stylesheet" href="../assets/css/admin/admin.css" /><script src="../assets/js/applicant/sidebar.js" defer></script><link rel="stylesheet" href="../assets/css/theme.css" /><script src="../assets/js/portal-return.js" defer></script></head>
+  <body class="admin-portal">
+<a class="sr-only focus:not-sr-only" href="#main">Skip to main content</a>
+<header class="topbar"><div class="nav-wrap"><a class="brand" href="../landing-page.html"><img class="brand-icon peso-logo" src="../assets/images/PESO.png" alt="PESO logo" width="43" height="43" /><span><strong>PESO PIO DURAN</strong><small>ADMINISTRATION PORTAL</small></span></a><nav class="navlinks" aria-label="Public navigation"><a class="hide-mobile" href="../landing-page.html">&larr; Public Home</a><span class="tag">PESO Staff</span></nav></div></header>
+<nav class="mobile-nav" aria-label="Admin mobile navigation"><a href="dashboard.html">Overview</a><a href="employers.html">Employer approval</a><a href="job-seekers.html">Job seekers</a><a href="job-posts.html">Job Posts</a><a href="applications.html" aria-current="page">Applications</a><a href="reports.html">Reports</a><a href="analytics.html">Data analytics</a></nav>
+<div class="dash-layout"><aside class="sidebar"><div class="sidebar-label">ADMIN MENU</div><nav aria-label="Admin navigation"><a class="side-link" href="dashboard.html">Overview</a><a class="side-link" href="employers.html">Employer approval</a><a class="side-link" href="job-seekers.html">Job seekers</a><a class="side-link" href="job-posts.html">Job Posts</a><a class="side-link active" href="applications.html" aria-current="page">Applications</a><a class="side-link" href="reports.html">Reports</a><a class="side-link" href="analytics.html">Data analytics</a></nav></aside>
+<main id="main" class="dash-main">
+        <div class="mb-7">
+          <p
+            class="text-xs uppercase tracking-widest text-green-700 font-bold mb-2"
+          >
+            PESO administration
+          </p>
+          <h1 class="text-2xl md:text-3xl font-bold text-green-900">
+            Applications
+          </h1>
+          <p class="text-sm text-gray-500 mt-2 leading-6">
+            Monitor applications across employers and recruitment outcomes.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+          <div class="employer-metric metric-blue"><div class="metric-heading"><p>All applications</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">320</p>
+            <p class="text-xs text-gray-500 mt-2">
+              Applicants may apply to multiple employers
+            </p>
+          </div>
+          <div class="employer-metric metric-amber"><div class="metric-heading"><p>Under review</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">112</p>
+            <p class="text-xs text-gray-500 mt-2">
+              Awaiting employer assessment
+            </p>
+          </div>
+          <div class="employer-metric metric-green"><div class="metric-heading"><p>Shortlisted</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">64</p>
+            <p class="text-xs text-gray-500 mt-2">
+              Selected for the next stage
+            </p>
+          </div>
+          <div class="employer-metric metric-green"><div class="metric-heading"><p>Hired</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">48</p>
+            <p class="text-xs text-gray-500 mt-2">Successful applications</p>
+          </div>
+        </div>
+        <section
+          class="bg-white border border-gray-200 rounded-lg p-5 md:p-6 shadow-sm"
+        >
+          <h2 class="text-lg font-bold text-green-900 mb-4">
+            Recent applications
+          </h2>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-green-50 text-gray-500 text-xs uppercase">
+                <tr>
+                  <th class="p-4 whitespace-nowrap">Reference</th>
+                  <th class="p-4 whitespace-nowrap">Applicant</th>
+                  <th class="p-4 whitespace-nowrap">Vacancy</th>
+                  <th class="p-4 whitespace-nowrap">Employer</th>
+                  <th class="p-4 whitespace-nowrap">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">APP-001</td>
+                  <td class="p-4 align-top">Ana Reyes</td>
+                  <td class="p-4 align-top">Sales Associate</td>
+                  <td class="p-4 align-top">Bicol Retail Group</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-green-100 text-green-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >Hired</span
+                    >
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">APP-002</td>
+                  <td class="p-4 align-top">Marco Santos</td>
+                  <td class="p-4 align-top">Accounting Assistant</td>
+                  <td class="p-4 align-top">Pio Duran Trading</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-blue-100 text-blue-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >Shortlisted</span
+                    >
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">APP-003</td>
+                  <td class="p-4 align-top">Liza Cruz</td>
+                  <td class="p-4 align-top">Front Desk Associate</td>
+                  <td class="p-4 align-top">Coastal Hospitality</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-blue-100 text-blue-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >Under review</span
+                    >
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">APP-004</td>
+                  <td class="p-4 align-top">Ana Reyes</td>
+                  <td class="p-4 align-top">Office Assistant</td>
+                  <td class="p-4 align-top">Sample Logistics Co.</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-gray-100 text-gray-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >Withdrawn</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <div class="mt-6">
+          <section
+            class="bg-white border border-gray-200 rounded-lg p-5 md:p-6 shadow-sm"
+          >
+            <h2 class="text-lg font-bold text-green-900 mb-4">
+              Status definitions
+            </h2>
+            <p class="text-sm text-gray-600 leading-7">
+              Submitted &rarr; Under review &rarr; Shortlisted &rarr; Hired.
+              Withdrawn means the applicant has pulled back an application. For
+              this prototype, ?successful application? means Hired; 48 hired
+              applications belong to 42 unique job seekers.
+            </p>
+          </section>
+        </div>
+        
+      
+<footer class="footer"><div class="container"><span>&copy; 2026 PESO Pio Duran</span><a href="../landing-page.html">Return to public home &rarr;</a></div></footer></main></div>
+</body></html>

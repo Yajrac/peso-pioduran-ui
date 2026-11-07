@@ -1,0 +1,871 @@
+[
+  {
+    "file": "applicant-register.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "index.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "landing-page.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "login.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/analytics.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/applications.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/dashboard.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/employers.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/job-posts.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/job-seekers.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/reports.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/applications.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/dashboard.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/jobs.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/profile.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [
+      {
+        "tag": "A",
+        "cls": ""
+      }
+    ],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-applicant-detail.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-applicants.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-approval.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-dashboard.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-jobs.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-post-job.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-profile.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-register.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-verify.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant-register.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "index.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "landing-page.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "login.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/analytics.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/applications.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/dashboard.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/employers.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/job-posts.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/job-seekers.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/reports.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/applications.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/dashboard.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/jobs.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/profile.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-applicant-detail.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-applicants.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-approval.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-dashboard.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-jobs.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-post-job.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-profile.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-register.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-verify.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant-register.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "index.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "landing-page.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "login.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/analytics.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/applications.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/dashboard.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/employers.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/job-posts.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/job-seekers.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/reports.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/applications.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/dashboard.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/jobs.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/profile.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-applicant-detail.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-applicants.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-approval.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-dashboard.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-jobs.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-post-job.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-profile.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-register.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-verify.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant-register.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "index.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "landing-page.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "login.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/analytics.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/applications.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/dashboard.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/employers.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/job-posts.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/job-seekers.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/reports.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/applications.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/dashboard.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/jobs.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "applicant/profile.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-applicant-detail.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-applicants.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-approval.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-dashboard.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-jobs.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-post-job.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-profile.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-register.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "employer/employer-verify.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  }
+]

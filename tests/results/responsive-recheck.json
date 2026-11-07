@@ -1,0 +1,38 @@
+[
+  {
+    "file": "admin/analytics.html",
+    "width": 320,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/analytics.html",
+    "width": 390,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": false,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/analytics.html",
+    "width": 768,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  },
+  {
+    "file": "admin/analytics.html",
+    "width": 1440,
+    "overflow": false,
+    "mainOverflow": false,
+    "sidebarVisible": true,
+    "offenders": [],
+    "errors": []
+  }
+]

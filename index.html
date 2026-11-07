@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Choose a Portal | PESO Pio Duran</title>
+    <link rel="icon" type="image/png" href="assets/images/PESO.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      body {
+        min-height: 100vh;
+        min-height: 100svh;
+        background: #eef1f5;
+        display: flex;
+        flex-direction: column;
+      }
+      .demo-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding: 22px 32px;
+        background: #fff;
+        border-bottom: 1px solid #dfe7e2;
+      }
+      .demo-header .brand small {
+        font-size: 10px;
+      }
+      .home-link {
+        font-size: 13px;
+        color: #166534;
+        font-weight: 600;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .portal-main {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        padding: 64px 24px;
+      }
+      .portal-heading {
+        text-align: center;
+        max-width: 580px;
+        margin: 0 auto 36px;
+      }
+      .portal-heading .eyebrow {
+        color: #15803d;
+        font-size: 10px;
+        letter-spacing: 1.7px;
+      }
+      .portal-heading h1 {
+        font-size: clamp(30px, 4vw, 42px);
+        letter-spacing: -1.3px;
+        line-height: 1.2;
+        margin: 14px 0;
+      }
+      .portal-heading p {
+        font-size: 14px;
+        color: #64748b;
+        line-height: 1.8;
+      }
+      .portal-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 22px;
+      }
+      .portal-card {
+        display: flex;
+        flex-direction: column;
+        padding: 28px;
+        background: #fff;
+        border: 1px solid #dfe5e9;
+        border-radius: 8px;
+        color: #172b24;
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s,
+          border-color 0.2s;
+      }
+      .portal-card:hover {
+        opacity: 1;
+        transform: translateY(-4px);
+        border-color: var(--accent);
+        box-shadow: 0 12px 28px #172b240a;
+      }
+      .role-icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+        background: var(--tint);
+        color: var(--accent);
+        margin-bottom: 24px;
+      }
+      .role-icon svg {
+        width: 25px;
+        height: 25px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .portal-card h2 {
+        font-size: 21px;
+        letter-spacing: -0.5px;
+        margin: 0 0 10px;
+      }
+      .portal-card p {
+        font-size: 13px;
+        line-height: 1.8;
+        color: #64748b;
+        margin: 0 0 24px;
+      }
+      .portal-card ul {
+        padding: 0;
+        margin: 0 0 28px;
+        list-style: none;
+        color: #52645b;
+        font-size: 12px;
+        line-height: 2.2;
+      }
+      .portal-card li::before {
+        content: "\2713";
+        color: var(--accent);
+        margin-right: 9px;
+      }
+      .portal-enter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding-top: 18px;
+        border-top: 1px solid #edf1ee;
+        margin-top: auto;
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--accent);
+      }
+      .applicant {
+        --accent: #15803d;
+        --tint: #ecfdf5;
+      }
+      .employee {
+        --accent: #2563eb;
+        --tint: #eff6ff;
+      }
+      .admin {
+        --accent: #7c3aed;
+        --tint: #f5f3ff;
+      }
+      .demo-footer {
+        text-align: center;
+        padding: 20px 24px;
+        color: #64748b;
+        font-size: 12px;
+        line-height: 1.8;
+      }
+      .portal-card:focus-visible,
+      .home-link:focus-visible {
+        outline: 3px solid #15803d;
+        outline-offset: 4px;
+      }
+      @media (max-width: 760px) {
+        .portal-grid {
+          grid-template-columns: 1fr;
+          max-width: 480px;
+          margin: auto;
+        }
+        .portal-main {
+          padding: 40px 20px;
+        }
+        .demo-header {
+          padding: 16px 20px;
+          flex-wrap: wrap;
+        }
+        .portal-card {
+          padding: 24px;
+        }
+        .portal-heading {
+          margin-bottom: 28px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .portal-card {
+          transition: none;
+        }
+        .portal-card:hover {
+          transform: none;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <script src="assets/js/portal-return.js" defer></script>
+  </head>
+  <body>
+    <header class="demo-header">
+      <a class="brand" href="landing-page.html"
+        ><img
+          class="brand-icon peso-logo"
+          src="assets/images/PESO.png"
+          width="43"
+          height="43"
+          alt="PESO logo"
+        /><span
+          ><strong>PESO PIO DURAN</strong
+          ><small>JOB APPLICATION &amp; RECRUITMENT PORTAL</small></span
+        ></a
+      >
+      <a class="home-link" href="landing-page.html"
+        >View public website &rarr;</a
+      >
+    </header>
+    <main class="portal-main">
+      <div class="portal-heading">
+        <div class="eyebrow">EXPLORE THE PORTALS</div>
+        <h1>Choose your workspace.</h1>
+        <p>
+          A quick look at each side of PESO Pio Duran.<br />Select a role to
+          explore its sample dashboard.
+        </p>
+      </div>
+      <div class="portal-grid">
+        <a class="portal-card applicant" href="applicant/dashboard.html">
+          <span class="role-icon"
+            ><svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="8" r="4" />
+              <path d="M4 21v-2a8 8 0 0 1 16 0v2" /></svg
+          ></span>
+          <h2>Applicant</h2>
+          <p>Find local opportunities and take the next step in your career.</p>
+          <ul>
+            <li>Browse available jobs</li>
+            <li>Track your applications</li>
+            <li>Manage profile &amp; documents</li>
+          </ul>
+          <span class="portal-enter"
+            >Open applicant portal <span aria-hidden="true">&rarr;</span></span
+          >
+        </a>
+        <a class="portal-card employee" href="employer/employer-dashboard.html">
+          <span class="role-icon"
+            ><svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="7" width="18" height="14" rx="2" />
+              <path
+                d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12a20 20 0 0 0 18 0M12 11v4"
+              /></svg
+          ></span>
+          <h2>Employee</h2>
+          <p>
+            Explore the employer workspace for local hiring and recruitment.
+          </p>
+          <ul>
+            <li>Manage job postings</li>
+            <li>Review applicants</li>
+            <li>Maintain employer profile</li>
+          </ul>
+          <span class="portal-enter"
+            >Open employee portal <span aria-hidden="true">&rarr;</span></span
+          >
+        </a>
+        <a class="portal-card admin" href="admin/dashboard.html">
+          <span class="role-icon"
+            ><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6zM8 12l3 3 5-6" /></svg
+          ></span>
+          <h2>Admin</h2>
+          <p>
+            Oversee portal activity and support the local employment community.
+          </p>
+          <ul>
+            <li>Manage employers &amp; job seekers</li>
+            <li>Monitor applications</li>
+            <li>View reports &amp; analytics</li>
+          </ul>
+          <span class="portal-enter"
+            >Open admin portal <span aria-hidden="true">&rarr;</span></span
+          >
+        </a>
+      </div>
+    </main>
+    <footer class="demo-footer">
+      PESO Pio Duran &middot; Classroom demonstration<br />Sample dashboards
+      &middot; Select a role to preview.
+    </footer>
+  </body>
+</html>

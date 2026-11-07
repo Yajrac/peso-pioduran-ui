@@ -1,0 +1,12 @@
+.employer-registration .registration-intro{display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:24px;padding:32px clamp(28px,4vw,64px)}
+.employer-registration .registration-copy{align-self:center;max-width:460px}
+.employer-registration .registration-copy h1{font-size:clamp(34px,3.4vw,48px);margin:16px 0 20px;letter-spacing:-1.3px}
+.employer-registration .registration-copy>p{max-width:350px;font-size:14px}
+.employer-steps{list-style:none;padding:0;margin:30px 0 0;display:grid;gap:20px}
+.employer-steps li{display:flex;align-items:flex-start;gap:14px}
+.step-number{display:grid;place-items:center;flex-shrink:0;width:36px;height:36px;border-radius:8px;background:#ffffff12;border:1px solid #ffffff26;color:#a7f3d0;font-size:11px;font-weight:600}
+.employer-steps strong{display:block;font-size:13px;font-weight:600;color:#fff;margin:0 0 4px}
+.employer-registration .employer-steps p{font-size:12px;line-height:1.6;color:#b1d7c9;margin:0}
+.employer-registration .intro-location{margin:0;padding-top:18px;border-top:1px solid #ffffff26;font-size:11px;line-height:1.7}
+@media(min-width:851px) and (max-height:750px){.employer-registration .registration-intro{padding-top:24px;padding-bottom:24px;gap:16px}.employer-registration .registration-copy h1{font-size:34px;margin:12px 0}.employer-steps{margin-top:20px;gap:14px}}
+@media(max-width:850px){.employer-registration .registration-intro{grid-template-rows:auto auto;padding:28px 24px;gap:28px}.employer-registration .registration-copy h1{font-size:34px}.employer-steps{display:none}}

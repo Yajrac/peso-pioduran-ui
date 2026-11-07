@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Post a Job | PESO Pio Duran</title>
+    <link rel="icon" type="image/png" href="../assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" /><link rel="stylesheet" href="../assets/css/applicant/dashboard.css" />
+  <link rel="stylesheet" href="../assets/css/applicant/sidebar.css" /><script src="../assets/js/applicant/sidebar.js" defer></script><link rel="stylesheet" href="../assets/css/theme.css" /><script src="../assets/js/portal-return.js" defer></script></head>
+  <body class="employer-portal">
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a href="../landing-page.html" class="brand"
+          ><img class="brand-icon peso-logo" src="../assets/images/PESO.png" alt="PESO logo" width="43" height="43" /><span
+            ><strong>PESO PIO DURAN</strong><small>EMPLOYER PORTAL</small></span
+          ></a
+        >
+        <nav class="navlinks">
+          <a class="hide-mobile" href="../landing-page.html">← Public Home</a
+          ><span class="tag">● Demo Employer</span
+          ><span
+            class="brand-icon"
+            style="width: 36px; height: 36px; font-size: 13px"
+            >SE</span
+          >
+        </nav>
+      </div>
+    </header>
+    <nav class="mobile-nav" aria-label="Employer mobile navigation">
+      <a href="employer-dashboard.html">Overview</a
+      ><a href="employer-post-job.html">Post a Job</a
+      ><a href="employer-jobs.html">Manage Jobs</a
+      ><a href="employer-applicants.html">Applicants</a
+      ><a href="employer-profile.html">Company Profile</a>
+    </nav>
+    <div class="dash-layout">
+      <aside class="sidebar">
+        <div class="sidebar-label">EMPLOYER MENU</div>
+        <a class="side-link" href="employer-dashboard.html"
+          ><span>▦</span>Overview</a
+        ><a class="side-link active" aria-current="page" href="employer-post-job.html"
+          ><span>＋</span>Post a Job</a
+        ><a class="side-link" href="employer-jobs.html"
+          ><span>▤</span>Manage Jobs</a
+        ><a class="side-link" href="employer-applicants.html"
+          ><span>♙</span>Applicants</a
+        ><a class="side-link" href="employer-profile.html"
+          ><span>▣</span>Company Profile</a
+        >
+        
+        
+      </aside>
+      <main class="dash-main vacancy-main" id="main"><div class="employer-heading"><div><div class="eyebrow text-green-700" style="color:#15803d">PESO PIO DURAN &middot; EMPLOYER</div><h1>Post a Job</h1></div><span class="muted text-xs">Prototype &middot; Sample data</span></div><div class="employer-alert"><strong>PESO approved account example.</strong><span>Only approved employers may publish vacancies in the proposed workflow.</span></div><div class="employer-form-layout"><section class="panel mb-6"><h2>Vacancy information</h2><div class="mt-5"><form class="employer-form"><div class="form-grid"><label class="field">Job title<input type="text" value="Junior Web Developer" /></label><label class="field">Employment type<select><option>Full-time</option><option>Part-time</option><option>Contract</option></select></label><label class="field">Category<select><option>Information Technology</option><option>Administrative</option><option>Customer Service</option></select></label><label class="field">Work location<input type="text" value="Pio Duran, Albay" /></label><label class="field">Salary range (optional)<input type="text" value="PHP 18,000 - 22,000 / month" /></label><label class="field">Number of vacancies<input type="number" min="1" value="1" /></label></div><label class="field">Responsibilities<textarea rows="4">Build and maintain accessible website interfaces.</textarea></label><label class="field">Required skills<input type="text" value="HTML, CSS, JavaScript" /></label><label class="field">Minimum relevant experience (years)<input type="number" min="0" value="1" /></label><label class="field">Minimum education<input type="text" value="Relevant IT education or equivalent experience" /></label><label class="field">Matching keywords<input type="text" value="frontend, responsive design, web development" /></label><label class="field">Required applicant credentials<input type="text" value="Resume; relevant certificates if available" /></label><label class="field">Application deadline<input type="date" value="2026-12-15" /></label><div class="flex flex-wrap gap-3"><button type="button" disabled class="btn btn-primary opacity-50 cursor-not-allowed">Save draft</button><button type="button" disabled class="btn btn-primary opacity-50 cursor-not-allowed">Publish vacancy</button></div><p class="text-xs text-gray-500 mt-4">Static preview only. Changes, messages, uploads, and decisions are not saved.</p></form></div></section><section class="panel mb-6 matching-inputs"><h2>Matching inputs</h2><div class="mt-5"><p class="muted text-sm leading-7">Enter specific skills, experience, and keywords. These are the proposed inputs for matching vacancies to job seekers and filtering submitted r&eacute;sum&eacute;s.</p><p class="muted text-sm leading-7 mt-4">Job seekers may apply to more than one employer. Review only applications submitted to your company.</p></div></section></div><footer class="footer">
+      <div class="container">
+        <span>© 2026 PESO Pio Duran</span
+        ><span>Static employer UI prototype · No actual applicant data</span>
+      </div>
+    </footer></main>
+    </div>
+    
+  </body>
+</html>

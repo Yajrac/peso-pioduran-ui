@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PESO Pio Duran | Find Your Next Opportunity</title>
+    <link rel="icon" type="image/png" href="assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <style>
+      .portal-icon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        vertical-align: middle;
+      }
+      .job-icon {
+        display: grid;
+        place-items: center;
+        width: 52px;
+        height: 52px;
+        border-radius: 15px;
+        background: #e7f7ed;
+        color: #15803d;
+        flex-shrink: 0;
+      }
+      .job-icon .portal-icon {
+        display: block;
+        width: 26px;
+        height: 26px;
+        stroke-width: 1.8;
+      }
+      #jobs .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px;
+      }
+      #jobs .job-card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      #jobs .card-bottom {
+        margin-top: auto;
+        gap: 12px;
+      }
+      #jobs .job-meta {
+        margin-bottom: 22px;
+      }
+      @media (max-width: 900px) {
+        #jobs .grid-3 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (max-width: 650px) {
+        #jobs .grid-3 {
+          grid-template-columns: 1fr;
+        }
+      }
+      .job-meta span,
+      .eyebrow,
+      .link-green,
+      .search-panel button {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .job-meta .portal-icon {
+        width: 15px;
+        height: 15px;
+      }
+      .link-green .portal-icon,
+      .search-panel button .portal-icon {
+        width: 17px;
+        height: 17px;
+      }
+      .search-input-wrap {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex: 1;
+        min-width: 0;
+        padding-left: 13px;
+        border: 1px solid #e2eee6;
+        border-radius: 9px;
+        color: #15803d;
+      }
+      .search-input-wrap input {
+        width: 100%;
+        border: 0;
+        padding-left: 0;
+      }
+      .search-input-wrap:focus-within {
+        outline: 2px solid #15803d;
+        outline-offset: 2px;
+      }
+      .search-input-wrap input:focus {
+        outline: none;
+      }
+    </style>
+  <style>
+.topbar{background:#059669;border-bottom:0}.topbar .brand{color:#fff}.topbar .brand small{color:#d1fae5}.topbar .navlinks{gap:32px;flex-wrap:wrap}.topbar .navlinks a{color:#fff;display:inline-flex;align-items:center;justify-content:center;min-height:48px;font-weight:700;white-space:nowrap}.topbar .navlinks .header-login{background:#fff;color:#065f46;border-radius:8px;padding:0 26px}.topbar a:focus-visible{outline:2px solid #fff;outline-offset:3px}
+@media(max-width:1000px){.topbar .nav-wrap{flex-wrap:wrap;gap:12px}.topbar .navlinks{gap:8px 24px}}
+@media(max-width:650px){.topbar .navlinks{display:flex;width:100%;justify-content:center;gap:4px 18px}.topbar .navlinks a{font-size:12px;min-height:44px}.topbar .navlinks .header-login{width:auto;padding:0 20px}}
+</style><link rel="stylesheet" href="assets/css/theme.css" /><style>.hero-browse{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;margin-top:24px;padding:12px 24px;border-radius:6px}.hero-browse .portal-icon{width:18px;height:18px}#jobs{scroll-margin-top:140px}</style><script src="assets/js/portal-return.js" defer></script></head>
+  <body>
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a href="landing-page.html" class="brand"
+          ><img
+            class="brand-icon peso-logo"
+            src="assets/images/PESO.png"
+            alt="PESO logo"
+            width="43"
+            height="43"
+          /><span
+            ><strong>PESO PIO DURAN</strong
+            ><small>JOB APPLICATION & RECRUITMENT PORTAL</small></span
+          ></a
+        >
+        <nav class="navlinks" aria-label="Main navigation"><a href="landing-page.html" aria-current="page">Home</a><a href="applicant-register.html">Register Applicant</a><a href="employer/employer-register.html">Register Employer</a><a href="login.html" class="header-login">Log In</a></nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="eyebrow">
+            <svg
+              class="portal-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <rect x="3" y="7" width="18" height="14" rx="2" />
+              <path
+                d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12a20 20 0 0 0 18 0M12 11v4"
+              />
+            </svg>
+            Public Employment Service Office · Pio Duran
+          </div>
+          <h1>
+            Find the right job.<br /><span style="color: #a7f3d0"
+              >Build a brighter future.</span
+            >
+          </h1>
+          <p>
+            Explore local career opportunities, connect with employers, and take
+            the next step toward your future — all in one place.
+          </p>
+          <a href="#jobs" class="btn btn-primary hero-browse">Browse Jobs <svg class="portal-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg></a>
+          <p style="font-size: 12px; margin-top: 12px; color: #c8f5d6">
+            Explore opportunities with PESO Pio Duran
+          </p>
+        </div>
+      </section>
+      <section id="jobs" class="container section">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow" style="color: #15803d">
+              CAREER OPPORTUNITIES
+            </div>
+            <h2>Featured Job Openings</h2>
+            <p class="muted" style="font-size: 14px">
+              Sample listings for interface preview
+            </p>
+          </div>
+          <a href="applicant/dashboard.html" class="link-green"
+            >Go to Dashboard
+            <svg
+              class="portal-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M5 12h14m-6-6 6 6-6 6" /></svg
+          ></a>
+        </div>
+        <div class="grid-3">
+          <article class="job-card">
+            <div class="flex justify-between items-center">
+              <div class="job-icon">
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <rect x="5" y="3" width="14" height="18" rx="2" />
+                  <path d="M9 7h1m4 0h1M9 11h1m4 0h1M10 21v-6h4v6" />
+                </svg>
+              </div>
+              <span class="tag">Full-time</span>
+            </div>
+            <h3>Administrative Assistant</h3>
+            <p class="muted text-sm">Sample Employer A</p>
+            <div class="job-meta">
+              <span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+                Pio Duran, Albay</span
+              ><span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 2" />
+                </svg>
+                Office-based</span
+              >
+            </div>
+            <div class="card-bottom">
+              <span class="text-xs muted">Posted recently · Demo</span
+              ><a class="link-green" href="applicant/dashboard.html"
+                >View Details
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M5 12h14m-6-6 6 6-6 6" /></svg
+              ></a>
+            </div>
+          </article>
+          <article class="job-card">
+            <div class="flex justify-between items-center">
+              <div class="job-icon">
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <rect x="2" y="3" width="20" height="15" rx="2" />
+                  <path d="m9 8-3 3 3 3m6-6 3 3-3 3M8 22h8m-4-4v4" />
+                </svg>
+              </div>
+              <span class="tag">Full-time</span>
+            </div>
+            <h3>Web Developer</h3>
+            <p class="muted text-sm">Sample Employer B</p>
+            <div class="job-meta">
+              <span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+                Pio Duran, Albay</span
+              ><span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 2" />
+                </svg>
+                Hybrid</span
+              >
+            </div>
+            <div class="card-bottom">
+              <span class="text-xs muted">Posted recently · Demo</span
+              ><a class="link-green" href="applicant/dashboard.html"
+                >View Details
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M5 12h14m-6-6 6 6-6 6" /></svg
+              ></a>
+            </div>
+          </article>
+          <article class="job-card">
+            <div class="flex justify-between items-center">
+              <div class="job-icon">
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M4 13v-1a8 8 0 0 1 16 0v1M20 16v2a3 3 0 0 1-3 3h-3"
+                  />
+                  <rect x="2" y="11" width="5" height="7" rx="2" />
+                  <rect x="17" y="11" width="5" height="7" rx="2" />
+                </svg>
+              </div>
+              <span class="tag">Contractual</span>
+            </div>
+            <h3>Customer Service Staff</h3>
+            <p class="muted text-sm">Sample Employer C</p>
+            <div class="job-meta">
+              <span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+                Pio Duran, Albay</span
+              ><span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 2" />
+                </svg>
+                On-site</span
+              >
+            </div>
+            <div class="card-bottom">
+              <span class="text-xs muted">Posted recently · Demo</span
+              ><a class="link-green" href="applicant/dashboard.html"
+                >View Details
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M5 12h14m-6-6 6 6-6 6" /></svg
+              ></a>
+            </div>
+          </article>
+          <article class="job-card">
+            <div class="flex justify-between items-center">
+              <div class="job-icon">
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <rect x="3" y="4" width="18" height="16" rx="2" />
+                  <path d="M3 9h18M3 14h18M9 9v11M15 9v11" />
+                </svg>
+              </div>
+              <span class="tag">Full-time</span>
+            </div>
+            <h3>Data Encoder</h3>
+            <p class="muted text-sm">Sample Employer D</p>
+            <div class="job-meta">
+              <span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+                Pio Duran, Albay</span
+              ><span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 2" />
+                </svg>
+                Office-based</span
+              >
+            </div>
+            <div class="card-bottom">
+              <span class="text-xs muted">Posted recently · Demo</span
+              ><a class="link-green" href="applicant/dashboard.html"
+                >View Details
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M5 12h14m-6-6 6 6-6 6" /></svg
+              ></a>
+            </div>
+          </article>
+          <article class="job-card">
+            <div class="flex justify-between items-center">
+              <div class="job-icon">
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <rect x="5" y="2" width="14" height="20" rx="2" />
+                  <path d="M8 6h8M8 11h1m6 0h1m-8 4h1m6 0h1m-8 4h1m6 0h1" />
+                </svg>
+              </div>
+              <span class="tag">Full-time</span>
+            </div>
+            <h3>Accounting Assistant</h3>
+            <p class="muted text-sm">Sample Employer E</p>
+            <div class="job-meta">
+              <span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+                Pio Duran, Albay</span
+              ><span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 2" />
+                </svg>
+                Office-based</span
+              >
+            </div>
+            <div class="card-bottom">
+              <span class="text-xs muted">Posted recently · Demo</span
+              ><a class="link-green" href="applicant/dashboard.html"
+                >View Details
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M5 12h14m-6-6 6 6-6 6" /></svg
+              ></a>
+            </div>
+          </article>
+          <article class="job-card">
+            <div class="flex justify-between items-center">
+              <div class="job-icon">
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M6 7h12l2 14H4L6 7ZM9 7V5a3 3 0 0 1 6 0v2" />
+                </svg>
+              </div>
+              <span class="tag">Part-time</span>
+            </div>
+            <h3>Sales Associate</h3>
+            <p class="muted text-sm">Sample Employer F</p>
+            <div class="job-meta">
+              <span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+                  <circle cx="12" cy="10" r="2.5" />
+                </svg>
+                Pio Duran, Albay</span
+              ><span
+                ><svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 2" />
+                </svg>
+                On-site</span
+              >
+            </div>
+            <div class="card-bottom">
+              <span class="text-xs muted">Posted recently · Demo</span
+              ><a class="link-green" href="applicant/dashboard.html"
+                >View Details
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path d="M5 12h14m-6-6 6 6-6 6" /></svg
+              ></a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="about" class="feature-band">
+        <div class="container section">
+          <div class="text-center mb-10">
+            <div class="eyebrow" style="color: #15803d">WHY USE OUR PORTAL</div>
+            <h2 class="text-3xl font-extrabold mt-2">
+              A simpler way to start your career
+            </h2>
+          </div>
+          <div class="grid-3">
+            <div class="feature">
+              <div class="job-icon">
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <circle cx="10.5" cy="10.5" r="7.5" />
+                  <path d="m16 16 5 5" />
+                </svg>
+              </div>
+              <h3>Discover Jobs</h3>
+              <p>
+                Browse available positions that match your skills, interests,
+                and career goals.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="job-icon">
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"
+                  />
+                </svg>
+              </div>
+              <h3>Apply with Ease</h3>
+              <p>
+                Keep your profile, resume, and supporting documents organized in
+                one place.
+              </p>
+            </div>
+            <div class="feature">
+              <div class="job-icon">
+                <svg
+                  class="portal-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <rect x="4" y="3" width="16" height="18" rx="2" />
+                  <path d="m8 12 3 3 5-6M9 3v2h6V3" />
+                </svg>
+              </div>
+              <h3>Track Applications</h3>
+              <p>
+                See the status of your job applications from your personal
+                dashboard.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <span>© 2026 PESO Pio Duran · Job Application & Recruitment Portal</span
+        ><span>UI prototype · Not an official live government service</span>
+      </div>
+    </footer>
+  </body>
+</html>

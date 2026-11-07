@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Employer Overview | PESO Pio Duran</title>
+    <link rel="icon" type="image/png" href="../assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" /><link rel="stylesheet" href="../assets/css/applicant/dashboard.css" />
+  <link rel="stylesheet" href="../assets/css/applicant/sidebar.css" /><script src="../assets/js/applicant/sidebar.js" defer></script><link rel="stylesheet" href="../assets/css/theme.css" /><script src="../assets/js/portal-return.js" defer></script></head>
+  <body class="employer-portal">
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a href="../landing-page.html" class="brand"
+          ><img class="brand-icon peso-logo" src="../assets/images/PESO.png" alt="PESO logo" width="43" height="43" /><span
+            ><strong>PESO PIO DURAN</strong><small>EMPLOYER PORTAL</small></span
+          ></a
+        >
+        <nav class="navlinks">
+          <a class="hide-mobile" href="../landing-page.html">← Public Home</a
+          ><span class="tag">● Demo Employer</span
+          ><span
+            class="brand-icon"
+            style="width: 36px; height: 36px; font-size: 13px"
+            >SE</span
+          >
+        </nav>
+      </div>
+    </header>
+    <nav class="mobile-nav" aria-label="Employer mobile navigation">
+      <a href="employer-dashboard.html">Overview</a
+      ><a href="employer-post-job.html">Post a Job</a
+      ><a href="employer-jobs.html">Manage Jobs</a
+      ><a href="employer-applicants.html">Applicants</a
+      ><a href="employer-profile.html">Company Profile</a>
+    </nav>
+    <div class="dash-layout">
+      <aside class="sidebar">
+        <div class="sidebar-label">EMPLOYER MENU</div>
+        <a class="side-link active" aria-current="page" href="employer-dashboard.html"
+          ><span>▦</span>Overview</a
+        ><a class="side-link" href="employer-post-job.html"
+          ><span>＋</span>Post a Job</a
+        ><a class="side-link" href="employer-jobs.html"
+          ><span>▤</span>Manage Jobs</a
+        ><a class="side-link" href="employer-applicants.html"
+          ><span>♙</span>Applicants</a
+        ><a class="side-link" href="employer-profile.html"
+          ><span>▣</span>Company Profile</a
+        >
+        
+        
+      </aside>
+      <main class="dash-main" id="main"><div class="employer-heading"><div><div class="eyebrow text-green-700" style="color:#15803d">PESO PIO DURAN &middot; EMPLOYER</div><h1>Employer Overview</h1></div><span class="muted text-xs">Prototype &middot; Sample data</span></div><section class="welcome"><div><div class="employer-kicker">SAMPLE EMPLOYER</div><h1>Find the right people for your team.</h1><p>Review applicants, manage vacancies, and monitor recruitment.</p><a class="btn employer-white-btn" href="employer-post-job.html">Post a vacancy</a></div></section><div class="stats"><div class="employer-metric metric-blue"><div class="metric-heading"><p>Published vacancies</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div><div class="number">2</div></div><div class="employer-metric metric-blue"><div class="metric-heading"><p>Applications</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div><div class="number">22</div></div><div class="employer-metric metric-green"><div class="metric-heading"><p>Shortlisted</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span></div><div class="number">5</div></div><div class="employer-metric metric-green"><div class="metric-heading"><p>Hired</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span></div><div class="number">2</div></div></div><section class="panel mb-6"><h2>Account status</h2><div class="mt-5"><span class="status shortlisted">PESO approved</span> <span class="text-sm ml-3">Phone verified via SMS OTP</span><p class="muted employer-desc">This workspace shows an approved employer example. Registration and pending approval have separate preview pages.</p><a class="link-green" href="employer-approval.html">View pending approval example &rarr;</a></div></section><section class="panel mb-6"><h2>Recent vacancies</h2><div class="mt-5"><div class="employer-table-wrap"><table class="employer-table"><thead><tr><th>Vacancy</th><th>Status</th><th>Applications</th><th>Action</th></tr></thead><tbody><tr><td>Junior Web Developer</td><td>Published</td><td>12</td><td><a class="link-green" href="employer-applicants.html">Review applicants</a></td></tr><tr><td>Office Assistant</td><td>Published</td><td>10</td><td><a class="link-green" href="employer-applicants.html">Review applicants</a></td></tr><tr><td>Data Encoder</td><td>Draft</td><td>0</td><td><a class="link-green" href="employer-post-job.html">Review draft</a></td></tr></tbody></table></div></div></section><section class="panel mb-6"><h2>Recruitment insights</h2><div class="mt-5"><div class="grid md:grid-cols-3 gap-5"><div><strong>18 days</strong><p class="muted text-sm mt-2">Average application-to-hire duration</p></div><div><strong>2 of 22</strong><p class="muted text-sm mt-2">Applications marked Hired</p></div><div><strong>Skills-based matching</strong><p class="muted text-sm mt-2">Review credentials alongside sample ranking scores.</p></div></div></div></section><footer class="footer">
+      <div class="container">
+        <span>© 2026 PESO Pio Duran</span
+        ><span>Static employer UI prototype · No actual applicant data</span>
+      </div>
+    </footer></main>
+    </div>
+    
+  </body>
+</html>

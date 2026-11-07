@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Data analytics | PESO Pio Duran Admin</title>
+    <link rel="icon" type="image/png" href="../assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+  <link rel="stylesheet" href="../assets/css/style.css" /><link rel="stylesheet" href="../assets/css/applicant/dashboard.css" /><link rel="stylesheet" href="../assets/css/applicant/sidebar.css" /><link rel="stylesheet" href="../assets/css/admin/admin.css" /><script src="../assets/js/applicant/sidebar.js" defer></script><link rel="stylesheet" href="../assets/css/theme.css" /><script src="../assets/js/portal-return.js" defer></script></head>
+  <body class="admin-portal">
+<a class="sr-only focus:not-sr-only" href="#main">Skip to main content</a>
+<header class="topbar"><div class="nav-wrap"><a class="brand" href="../landing-page.html"><img class="brand-icon peso-logo" src="../assets/images/PESO.png" alt="PESO logo" width="43" height="43" /><span><strong>PESO PIO DURAN</strong><small>ADMINISTRATION PORTAL</small></span></a><nav class="navlinks" aria-label="Public navigation"><a class="hide-mobile" href="../landing-page.html">&larr; Public Home</a><span class="tag">PESO Staff</span></nav></div></header>
+<nav class="mobile-nav" aria-label="Admin mobile navigation"><a href="dashboard.html">Overview</a><a href="employers.html">Employer approval</a><a href="job-seekers.html">Job seekers</a><a href="job-posts.html">Job Posts</a><a href="applications.html">Applications</a><a href="reports.html">Reports</a><a href="analytics.html" aria-current="page">Data analytics</a></nav>
+<div class="dash-layout"><aside class="sidebar"><div class="sidebar-label">ADMIN MENU</div><nav aria-label="Admin navigation"><a class="side-link" href="dashboard.html">Overview</a><a class="side-link" href="employers.html">Employer approval</a><a class="side-link" href="job-seekers.html">Job seekers</a><a class="side-link" href="job-posts.html">Job Posts</a><a class="side-link" href="applications.html">Applications</a><a class="side-link" href="reports.html">Reports</a><a class="side-link active" href="analytics.html" aria-current="page">Data analytics</a></nav></aside>
+<main id="main" class="dash-main">
+        <div class="mb-7">
+          <p
+            class="text-xs uppercase tracking-widest text-green-700 font-bold mb-2"
+          >
+            PESO administration
+          </p>
+          <h1 class="text-2xl md:text-3xl font-bold text-green-900">
+            Data analytics
+          </h1>
+          <p class="text-sm text-gray-500 mt-2 leading-6">
+            Inspect r?sum? matching, applicant rankings, and recruitment
+            duration.
+          </p>
+        </div>
+        
+        <div
+          class="bg-yellow-50 text-yellow-900 border border-yellow-200 rounded-lg p-4 text-sm mb-6"
+        >
+          Illustrative results only. Scores below are sample matching scores,
+          not validated predictions of hiring success.
+        </div>
+        <div class="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+          <div class="employer-metric metric-blue"><div class="metric-heading"><p>R?sum?s available</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M8 13h8M8 17h5"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">144</p>
+            <p class="text-xs text-gray-500 mt-2">
+              Illustrative matching input
+            </p>
+          </div>
+          <div class="employer-metric metric-amber"><div class="metric-heading"><p>Average time to hire</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">18 days</p>
+            <p class="text-xs text-gray-500 mt-2">Submission &rarr; Hired</p>
+          </div>
+          <div class="employer-metric metric-green"><div class="metric-heading"><p>Hired applications</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">48</p>
+            <p class="text-xs text-gray-500 mt-2">
+              Records included in hire duration
+            </p>
+          </div>
+          <div class="employer-metric metric-green"><div class="metric-heading"><p>Application success rate</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">15%</p>
+            <p class="text-xs text-gray-500 mt-2">48 of 320 applications</p>
+          </div>
+        </div>
+        <section
+          class="bg-white border border-gray-200 rounded-lg p-5 md:p-6 shadow-sm"
+        >
+          <h2 class="text-lg font-bold text-green-900 mb-4">
+            R?sum? filtering and applicant ranking
+          </h2>
+          <p class="text-sm text-gray-600 mb-4">
+            Example vacancy: <strong>Sales Associate</strong> &middot; Customer
+            service, communication, retail experience
+          </p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-green-50 text-gray-500 text-xs uppercase">
+                <tr>
+                  <th class="p-4 whitespace-nowrap">Rank</th>
+                  <th class="p-4 whitespace-nowrap">Applicant</th>
+                  <th class="p-4 whitespace-nowrap">Skills match</th>
+                  <th class="p-4 whitespace-nowrap">Experience match</th>
+                  <th class="p-4 whitespace-nowrap">Keyword match</th>
+                  <th class="p-4 whitespace-nowrap">Weighted score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">1</td>
+                  <td class="p-4 align-top">Ana Reyes</td>
+                  <td class="p-4 align-top">90%</td>
+                  <td class="p-4 align-top">80%</td>
+                  <td class="p-4 align-top">80%</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-green-100 text-green-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >85%</span
+                    >
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">2</td>
+                  <td class="p-4 align-top">Marco Santos</td>
+                  <td class="p-4 align-top">80%</td>
+                  <td class="p-4 align-top">60%</td>
+                  <td class="p-4 align-top">80%</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-blue-100 text-blue-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >74%</span
+                    >
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">3</td>
+                  <td class="p-4 align-top">Liza Cruz</td>
+                  <td class="p-4 align-top">70%</td>
+                  <td class="p-4 align-top">40%</td>
+                  <td class="p-4 align-top">60%</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-yellow-100 text-yellow-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >59%</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <details class="mt-5 bg-green-50 rounded-lg p-4">
+            <summary class="text-sm font-bold cursor-pointer text-green-900">
+              Proposed scoring approach
+            </summary>
+            <p class="text-sm mt-3 leading-7">
+              Match score = (skills &middot; 50%) + (experience &middot; 30%) +
+              (keywords &middot; 20%). These weights are a proposal for the
+              prototype, not specified in the PDF. Employers should review
+              credentials before making decisions.
+            </p>
+          </details>
+        </section>
+        <div class="grid md:grid-cols-2 gap-6 mt-6">
+          <section
+            class="bg-white border border-gray-200 rounded-lg p-5 md:p-6 shadow-sm"
+          >
+            <h2 class="text-lg font-bold text-green-900 mb-4">
+              Average time to hire by sector
+            </h2>
+            <div class="mb-5">
+              <div class="flex justify-between text-sm mb-2">
+                <span>Retail</span><strong>14 days</strong>
+              </div>
+              <div class="bg-green-50 rounded-full h-3">
+                <div
+                  class="bg-green-600 rounded-full h-3"
+                  style="width: 46.7%"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <div class="flex justify-between text-sm mb-2">
+                <span>Hospitality</span><strong>18 days</strong>
+              </div>
+              <div class="bg-green-50 rounded-full h-3">
+                <div
+                  class="bg-green-600 rounded-full h-3"
+                  style="width: 60%"
+                ></div>
+              </div>
+            </div>
+            <div class="mb-5">
+              <div class="flex justify-between text-sm mb-2">
+                <span>Administration</span><strong>22 days</strong>
+              </div>
+              <div class="bg-green-50 rounded-full h-3">
+                <div
+                  class="bg-green-600 rounded-full h-3"
+                  style="width: 73.3%"
+                ></div>
+              </div>
+            </div>
+            <p class="text-xs text-gray-500">
+              Illustrative sector averages. Bar scale: 30 days.
+            </p>
+          </section>
+          <section
+            class="bg-white border border-gray-200 rounded-lg p-5 md:p-6 shadow-sm"
+          >
+            <h2 class="text-lg font-bold text-green-900 mb-4">
+              Profile and benchmark comparison
+            </h2>
+            <div class="overflow-x-auto">
+              <table class="w-full text-left text-sm">
+                <thead class="bg-green-50 text-gray-500 text-xs uppercase">
+                  <tr>
+                    <th class="p-4 whitespace-nowrap">Criterion</th>
+                    <th class="p-4 whitespace-nowrap">Sample candidate</th>
+                    <th class="p-4 whitespace-nowrap">Vacancy benchmark</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-gray-100">
+                    <td class="p-4 align-top">Customer service</td>
+                    <td class="p-4 align-top">2 years</td>
+                    <td class="p-4 align-top">At least 1 year</td>
+                  </tr>
+                  <tr class="border-b border-gray-100">
+                    <td class="p-4 align-top">Communication</td>
+                    <td class="p-4 align-top">Listed in r?sum?</td>
+                    <td class="p-4 align-top">Required skill</td>
+                  </tr>
+                  <tr class="border-b border-gray-100">
+                    <td class="p-4 align-top">Retail certificate</td>
+                    <td class="p-4 align-top">Uploaded</td>
+                    <td class="p-4 align-top">Preferred credential</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="text-xs text-gray-500 mt-4">
+              Vacancy criteria are used as sample benchmarks. Performance
+              benchmarks and predictive success models require defined outcomes
+              and historical data before implementation.
+            </p>
+          </section>
+        </div>
+        
+      
+<footer class="footer"><div class="container"><span>&copy; 2026 PESO Pio Duran</span><a href="../landing-page.html">Return to public home &rarr;</a></div></footer></main></div>
+</body></html>

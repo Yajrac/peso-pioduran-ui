@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Employer approval | PESO Pio Duran Admin</title>
+    <link rel="icon" type="image/png" href="../assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+  <link rel="stylesheet" href="../assets/css/style.css" /><link rel="stylesheet" href="../assets/css/applicant/dashboard.css" /><link rel="stylesheet" href="../assets/css/applicant/sidebar.css" /><link rel="stylesheet" href="../assets/css/admin/admin.css" /><script src="../assets/js/applicant/sidebar.js" defer></script><link rel="stylesheet" href="../assets/css/theme.css" /><script src="../assets/js/portal-return.js" defer></script><link rel="stylesheet" href="../assets/css/admin/employers.css" /><script src="../assets/js/admin/employers.js" defer></script></head>
+  <body class="admin-portal">
+<a class="sr-only focus:not-sr-only" href="#main">Skip to main content</a>
+<header class="topbar"><div class="nav-wrap"><a class="brand" href="../landing-page.html"><img class="brand-icon peso-logo" src="../assets/images/PESO.png" alt="PESO logo" width="43" height="43" /><span><strong>PESO PIO DURAN</strong><small>ADMINISTRATION PORTAL</small></span></a><nav class="navlinks" aria-label="Public navigation"><a class="hide-mobile" href="../landing-page.html">&larr; Public Home</a><span class="tag">PESO Staff</span></nav></div></header>
+<nav class="mobile-nav" aria-label="Admin mobile navigation"><a href="dashboard.html">Overview</a><a href="employers.html" aria-current="page">Employer approval</a><a href="job-seekers.html">Job seekers</a><a href="job-posts.html">Job Posts</a><a href="applications.html">Applications</a><a href="reports.html">Reports</a><a href="analytics.html">Data analytics</a></nav>
+<div class="dash-layout"><aside class="sidebar"><div class="sidebar-label">ADMIN MENU</div><nav aria-label="Admin navigation"><a class="side-link" href="dashboard.html">Overview</a><a class="side-link active" href="employers.html" aria-current="page">Employer approval</a><a class="side-link" href="job-seekers.html">Job seekers</a><a class="side-link" href="job-posts.html">Job Posts</a><a class="side-link" href="applications.html">Applications</a><a class="side-link" href="reports.html">Reports</a><a class="side-link" href="analytics.html">Data analytics</a></nav></aside>
+<main id="main" class="dash-main">
+        <div class="mb-7">
+          <p
+            class="text-xs uppercase tracking-widest text-green-700 font-bold mb-2"
+          >
+            PESO administration
+          </p>
+          <h1 class="text-2xl md:text-3xl font-bold text-green-900">
+            Employer approval
+          </h1>
+          <p class="text-sm text-gray-500 mt-2 leading-6">
+            Review registrations and approve employer accounts before job
+            posting.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+          <div class="employer-metric metric-blue"><div class="metric-heading"><p>All employers</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 21v-4h6v4M8 7h1m6 0h1M8 11h1m6 0h1"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">24</p>
+            <p class="text-xs text-gray-500 mt-2">Registered accounts</p>
+          </div>
+          <div class="employer-metric metric-green"><div class="metric-heading"><p>Approved</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">18</p>
+            <p class="text-xs text-gray-500 mt-2">Eligible to post vacancies</p>
+          </div>
+          <div class="employer-metric metric-amber"><div class="metric-heading"><p>Pending review</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">4</p>
+            <p class="text-xs text-gray-500 mt-2">Awaiting PESO decision</p>
+          </div>
+          <div class="employer-metric metric-rose"><div class="metric-heading"><p>Declined</p><span class="metric-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m9 9 6 6m0-6-6 6"/></svg></span></div>
+            <p class="text-3xl font-bold text-green-900 mt-3">2</p>
+            <p class="text-xs text-gray-500 mt-2">Registration not approved</p>
+          </div>
+        </div>
+        <section class="registered-employers" aria-labelledby="registered-title"><div class="registry-heading"><h2 id="registered-title">Registered Institutional Employers</h2><p>Sample employer profiles &middot; View a company to inspect its details.</p></div><div class="overflow-x-auto"><table><thead><tr><th scope="col">Company Name</th><th scope="col">Business Permit No.</th><th scope="col">Contact No.</th><th scope="col">System Actions</th></tr></thead><tbody id="employer-registry"></tbody></table></div><p class="registry-note">Suspend and Delete are unavailable in this preview.</p></section>
+<dialog id="employer-profile-dialog" aria-labelledby="employer-profile-title"><div class="profile-modal-heading"><div><span>EMPLOYER PROFILE</span><h2 id="employer-profile-title"></h2></div><button type="button" id="close-employer-profile" aria-label="Close employer profile">&times;</button></div><div class="profile-modal-content"><span class="registry-active">Active employer &middot; Sample profile</span><dl id="employer-profile-fields"></dl><p class="registry-note">Demo information only. No real employer verification or account changes are performed.</p></div></dialog>
+<h2 class="approval-section-title">Registration reviews</h2><section class="registered-employers review-registry" aria-label="Registration reviews"><div class="overflow-x-auto"><table><thead><tr><th scope="col">Company name</th><th scope="col">Industry</th><th scope="col">Registered</th><th scope="col">Status</th><th scope="col">View</th></tr></thead><tbody><tr id="trading"><th scope="row">Pio Duran Trading</th><td>Retail</td><td>Nov 5, 2026</td><td><span class="review-pending">Pending review</span></td><td><button type="button" class="review-view" aria-expanded="false" aria-controls="review-trading" aria-label="View registration for Pio Duran Trading"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></td></tr><tr id="review-trading" class="review-expanded" hidden><td colspan="5">
+          <div class="border-t border-gray-100 p-5">
+            <dl class="grid md:grid-cols-3 gap-4 text-sm">
+              <div>
+                <dt class="text-gray-500">Business location</dt>
+                <dd class="font-bold mt-1">Pio Duran, Albay</dd>
+              </div>
+              <div>
+                <dt class="text-gray-500">Contact person</dt>
+                <dd class="font-bold mt-1">Sample employer representative</dd>
+              </div>
+              <div>
+                <dt class="text-gray-500">Account access</dt>
+                <dd class="font-bold mt-1">Awaiting PESO approval</dd>
+              </div>
+            </dl>
+            <p class="text-sm text-gray-600 mt-5">
+              Suggested review: confirm business identity and contact details.
+              Required verification documents are still to be defined.
+            </p>
+            <label class="block text-sm font-bold mt-4" for="notes-trading"
+              >Review notes</label
+            ><textarea
+              id="notes-trading"
+              rows="2"
+              class="border border-gray-300 rounded-lg p-3 w-full mt-2"
+              placeholder="Reason for approval or decline"
+            ></textarea>
+            <div class="flex flex-wrap gap-3 mt-4">
+              <button
+                disabled
+                class="rounded-lg bg-green-700 text-white px-5 py-2 opacity-50 cursor-not-allowed"
+              >
+                Approve employer</button
+              ><button
+                disabled
+                class="rounded-lg border border-red-300 text-red-700 px-5 py-2 opacity-50 cursor-not-allowed"
+              >
+                Decline registration
+              </button>
+            </div>
+            <p class="text-xs text-gray-500 mt-3">
+              Preview only. Decisions are not saved.
+            </p>
+          </div>
+        </td></tr><tr id="coast"><th scope="row">Albay Coast Services</th><td>Hospitality</td><td>Nov 5, 2026</td><td><span class="review-pending">Pending review</span></td><td><button type="button" class="review-view" aria-expanded="false" aria-controls="review-coast" aria-label="View registration for Albay Coast Services"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></td></tr><tr id="review-coast" class="review-expanded" hidden><td colspan="5">
+          <div class="border-t border-gray-100 p-5">
+            <dl class="grid md:grid-cols-3 gap-4 text-sm">
+              <div>
+                <dt class="text-gray-500">Business location</dt>
+                <dd class="font-bold mt-1">Pio Duran, Albay</dd>
+              </div>
+              <div>
+                <dt class="text-gray-500">Contact person</dt>
+                <dd class="font-bold mt-1">Sample employer representative</dd>
+              </div>
+              <div>
+                <dt class="text-gray-500">Account access</dt>
+                <dd class="font-bold mt-1">Awaiting PESO approval</dd>
+              </div>
+            </dl>
+            <p class="text-sm text-gray-600 mt-5">
+              Suggested review: confirm business identity and contact details.
+              Required verification documents are still to be defined.
+            </p>
+            <label class="block text-sm font-bold mt-4" for="notes-coast"
+              >Review notes</label
+            ><textarea
+              id="notes-coast"
+              rows="2"
+              class="border border-gray-300 rounded-lg p-3 w-full mt-2"
+              placeholder="Reason for approval or decline"
+            ></textarea>
+            <div class="flex flex-wrap gap-3 mt-4">
+              <button
+                disabled
+                class="rounded-lg bg-green-700 text-white px-5 py-2 opacity-50 cursor-not-allowed"
+              >
+                Approve employer</button
+              ><button
+                disabled
+                class="rounded-lg border border-red-300 text-red-700 px-5 py-2 opacity-50 cursor-not-allowed"
+              >
+                Decline registration
+              </button>
+            </div>
+            <p class="text-xs text-gray-500 mt-3">
+              Preview only. Decisions are not saved.
+            </p>
+          </div>
+        </td></tr><tr id="builders"><th scope="row">Duran Builders</th><td>Construction</td><td>Nov 6, 2026</td><td><span class="review-pending">Pending review</span></td><td><button type="button" class="review-view" aria-expanded="false" aria-controls="review-builders" aria-label="View registration for Duran Builders"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></td></tr><tr id="review-builders" class="review-expanded" hidden><td colspan="5">
+          <div class="border-t border-gray-100 p-5">
+            <dl class="grid md:grid-cols-3 gap-4 text-sm">
+              <div>
+                <dt class="text-gray-500">Business location</dt>
+                <dd class="font-bold mt-1">Pio Duran, Albay</dd>
+              </div>
+              <div>
+                <dt class="text-gray-500">Contact person</dt>
+                <dd class="font-bold mt-1">Sample employer representative</dd>
+              </div>
+              <div>
+                <dt class="text-gray-500">Account access</dt>
+                <dd class="font-bold mt-1">Awaiting PESO approval</dd>
+              </div>
+            </dl>
+            <p class="text-sm text-gray-600 mt-5">
+              Suggested review: confirm business identity and contact details.
+              Required verification documents are still to be defined.
+            </p>
+            <label class="block text-sm font-bold mt-4" for="notes-builders"
+              >Review notes</label
+            ><textarea
+              id="notes-builders"
+              rows="2"
+              class="border border-gray-300 rounded-lg p-3 w-full mt-2"
+              placeholder="Reason for approval or decline"
+            ></textarea>
+            <div class="flex flex-wrap gap-3 mt-4">
+              <button
+                disabled
+                class="rounded-lg bg-green-700 text-white px-5 py-2 opacity-50 cursor-not-allowed"
+              >
+                Approve employer</button
+              ><button
+                disabled
+                class="rounded-lg border border-red-300 text-red-700 px-5 py-2 opacity-50 cursor-not-allowed"
+              >
+                Decline registration
+              </button>
+            </div>
+            <p class="text-xs text-gray-500 mt-3">
+              Preview only. Decisions are not saved.
+            </p>
+          </div>
+        </td></tr><tr id="agri"><th scope="row">Pio Agri Supply</th><td>Agriculture</td><td>Nov 6, 2026</td><td><span class="review-pending">Pending review</span></td><td><button type="button" class="review-view" aria-expanded="false" aria-controls="review-agri" aria-label="View registration for Pio Agri Supply"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></td></tr><tr id="review-agri" class="review-expanded" hidden><td colspan="5">
+          <div class="border-t border-gray-100 p-5">
+            <dl class="grid md:grid-cols-3 gap-4 text-sm">
+              <div>
+                <dt class="text-gray-500">Business location</dt>
+                <dd class="font-bold mt-1">Pio Duran, Albay</dd>
+              </div>
+              <div>
+                <dt class="text-gray-500">Contact person</dt>
+                <dd class="font-bold mt-1">Sample employer representative</dd>
+              </div>
+              <div>
+                <dt class="text-gray-500">Account access</dt>
+                <dd class="font-bold mt-1">Awaiting PESO approval</dd>
+              </div>
+            </dl>
+            <p class="text-sm text-gray-600 mt-5">
+              Suggested review: confirm business identity and contact details.
+              Required verification documents are still to be defined.
+            </p>
+            <label class="block text-sm font-bold mt-4" for="notes-agri"
+              >Review notes</label
+            ><textarea
+              id="notes-agri"
+              rows="2"
+              class="border border-gray-300 rounded-lg p-3 w-full mt-2"
+              placeholder="Reason for approval or decline"
+            ></textarea>
+            <div class="flex flex-wrap gap-3 mt-4">
+              <button
+                disabled
+                class="rounded-lg bg-green-700 text-white px-5 py-2 opacity-50 cursor-not-allowed"
+              >
+                Approve employer</button
+              ><button
+                disabled
+                class="rounded-lg border border-red-300 text-red-700 px-5 py-2 opacity-50 cursor-not-allowed"
+              >
+                Decline registration
+              </button>
+            </div>
+            <p class="text-xs text-gray-500 mt-3">
+              Preview only. Decisions are not saved.
+            </p>
+          </div>
+        </td></tr></tbody></table></div></section>
+        
+        
+        
+        <section
+          class="bg-white border border-gray-200 rounded-lg p-5 md:p-6 shadow-sm"
+        >
+          <h2 class="text-lg font-bold text-green-900 mb-4">
+            Existing employer accounts
+          </h2>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-green-50 text-gray-500 text-xs uppercase">
+                <tr>
+                  <th class="p-4 whitespace-nowrap">Employer</th>
+                  <th class="p-4 whitespace-nowrap">Industry</th>
+                  <th class="p-4 whitespace-nowrap">Account status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">Bicol Retail Group</td>
+                  <td class="p-4 align-top">Retail</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-green-100 text-green-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >Approved</span
+                    >
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">Coastal Hospitality</td>
+                  <td class="p-4 align-top">Hospitality</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-green-100 text-green-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >Approved</span
+                    >
+                  </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                  <td class="p-4 align-top">Sample Logistics Co.</td>
+                  <td class="p-4 align-top">Transport</td>
+                  <td class="p-4 align-top">
+                    <span
+                      class="inline-block rounded-full bg-red-100 text-red-800 px-3 py-1 text-xs font-bold whitespace-nowrap"
+                      >Declined</span
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        
+      
+<footer class="footer"><div class="container"><span>&copy; 2026 PESO Pio Duran</span><a href="../landing-page.html">Return to public home &rarr;</a></div></footer></main></div>
+</body></html>

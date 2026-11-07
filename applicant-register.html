@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Applicant Registration | PESO Pio Duran</title>
+    <link rel="icon" href="assets/images/PESO.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/registration.css" />
+    <script src="assets/js/registration.js" defer></script>
+  <link rel="stylesheet" href="assets/css/theme.css" /><script src="assets/js/portal-return.js" defer></script><link rel="stylesheet" href="assets/css/employer/registration.css" /></head>
+  <body class="employer-registration">
+    <div class="registration-layout">
+      <aside class="registration-intro">
+        <a class="brand" href="landing-page.html"
+          ><img
+            class="brand-icon peso-logo"
+            src="assets/images/PESO.png"
+            width="43"
+            height="43"
+            alt="PESO logo"
+          /><span
+            ><strong>PESO PIO DURAN</strong
+            ><small>JOB SEEKER PORTAL</small></span
+          ></a
+        >
+        <div class="registration-copy">
+          <span class="eyebrow">YOUR NEXT CHAPTER</span>
+          <h1>A fresh start.<br /><span>A brighter future.</span></h1>
+          <p>Take the first step toward your next opportunity in Pio Duran.</p>
+          <ol class="employer-steps">
+<li><span class="step-number">01</span><div><strong>Create your account</strong><p>Add your personal and contact details.</p></div></li>
+<li><span class="step-number">02</span><div><strong>Complete your profile</strong><p>Add your skills, experience, and documents.</p></div></li>
+<li><span class="step-number">03</span><div><strong>Find your next opportunity</strong><p>Browse local jobs and track your applications.</p></div></li>
+</ol>
+        </div>
+        <p class="intro-location">
+          Public Employment Service Office<br />Pio Duran, Albay
+        </p>
+      </aside>
+      <main class="registration-main">
+        <section class="registration-card" aria-labelledby="registration-title">
+          <a class="back-home" href="landing-page.html">&larr; Back to home</a>
+          <span class="registration-kicker">APPLICANT REGISTRATION</span>
+          <h2 id="registration-title">Create your account</h2>
+          <p class="registration-subtitle">
+            Start your job search with PESO Pio Duran.
+          </p>
+          <form id="registration-form">
+            <fieldset>
+              <legend>Personal details</legend>
+              <div class="registration-grid">
+                <label for="first-name"
+                  >First name<input
+                    id="first-name"
+                    autocomplete="given-name"
+                    placeholder="Juan"
+                    required
+                    maxlength="80"
+                /></label>
+                <label for="last-name"
+                  >Last name<input
+                    id="last-name"
+                    autocomplete="family-name"
+                    placeholder="Dela Cruz"
+                    required
+                    maxlength="80"
+                /></label>
+              </div>
+              <label for="email"
+                >Email address<input
+                  id="email"
+                  type="email"
+                  autocomplete="email"
+                  placeholder="you@example.com"
+                  required
+              /></label>
+              <label for="mobile"
+                >Mobile number<input
+                  id="mobile"
+                  type="tel"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  placeholder="09XX XXX XXXX"
+                  pattern="(?:09[0-9]{9}|\+639[0-9]{9})"
+                  title="Enter 11 digits starting with 09, or +639 followed by 9 digits."
+                  aria-describedby="mobile-help"
+                  required
+                /><small id="mobile-help"
+                  >Use 09XXXXXXXXX or +639XXXXXXXXX, without spaces.</small
+                ></label
+              >
+            </fieldset>
+            <fieldset>
+              <legend>Account security</legend>
+              <label for="new-password">Password</label>
+              <div class="registration-password">
+                <input
+                  id="new-password"
+                  type="password"
+                  autocomplete="new-password"
+                  minlength="8"
+                  placeholder="Create a password"
+                  aria-describedby="password-help"
+                  required
+                /><button
+                  type="button"
+                  class="password-toggle"
+                  aria-controls="new-password"
+                  aria-label="Show password"
+                  aria-pressed="false"
+                >
+                  Show
+                </button>
+              </div>
+              <small id="password-help">Use at least 8 characters.</small>
+              <label for="confirm-password">Confirm password</label>
+              <div class="registration-password">
+                <input
+                  id="confirm-password"
+                  type="password"
+                  autocomplete="new-password"
+                  placeholder="Re-enter your password"
+                  required
+                /><button
+                  type="button"
+                  class="password-toggle"
+                  aria-controls="confirm-password"
+                  aria-label="Show confirm password"
+                  aria-pressed="false"
+                >
+                  Show
+                </button>
+              </div>
+            </fieldset>
+            <p class="registration-note">
+              Demo form only. No account is created and your details are not
+              saved or sent.
+            </p>
+            <button class="btn btn-primary registration-submit" type="submit">
+              Preview registration &rarr;
+            </button>
+            <p
+              id="registration-status"
+              role="status"
+              aria-live="polite"
+              tabindex="-1"
+            ></p>
+          </form>
+          <p class="login-prompt">
+            Already have an account? <a href="login.html">Log in</a>
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

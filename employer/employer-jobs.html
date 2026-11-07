@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Manage Jobs | PESO Pio Duran</title>
+    <link rel="icon" type="image/png" href="../assets/images/PESO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" /><link rel="stylesheet" href="../assets/css/applicant/dashboard.css" />
+  <link rel="stylesheet" href="../assets/css/applicant/sidebar.css" /><script src="../assets/js/applicant/sidebar.js" defer></script><link rel="stylesheet" href="../assets/css/theme.css" /><script src="../assets/js/portal-return.js" defer></script></head>
+  <body class="employer-portal">
+    <header class="topbar">
+      <div class="nav-wrap">
+        <a href="../landing-page.html" class="brand"
+          ><img class="brand-icon peso-logo" src="../assets/images/PESO.png" alt="PESO logo" width="43" height="43" /><span
+            ><strong>PESO PIO DURAN</strong><small>EMPLOYER PORTAL</small></span
+          ></a
+        >
+        <nav class="navlinks">
+          <a class="hide-mobile" href="../landing-page.html">← Public Home</a
+          ><span class="tag">● Demo Employer</span
+          ><span
+            class="brand-icon"
+            style="width: 36px; height: 36px; font-size: 13px"
+            >SE</span
+          >
+        </nav>
+      </div>
+    </header>
+    <nav class="mobile-nav" aria-label="Employer mobile navigation">
+      <a href="employer-dashboard.html">Overview</a
+      ><a href="employer-post-job.html">Post a Job</a
+      ><a href="employer-jobs.html">Manage Jobs</a
+      ><a href="employer-applicants.html">Applicants</a
+      ><a href="employer-profile.html">Company Profile</a>
+    </nav>
+    <div class="dash-layout">
+      <aside class="sidebar">
+        <div class="sidebar-label">EMPLOYER MENU</div>
+        <a class="side-link" href="employer-dashboard.html"
+          ><span>▦</span>Overview</a
+        ><a class="side-link" href="employer-post-job.html"
+          ><span>＋</span>Post a Job</a
+        ><a class="side-link active" aria-current="page" href="employer-jobs.html"
+          ><span>▤</span>Manage Jobs</a
+        ><a class="side-link" href="employer-applicants.html"
+          ><span>♙</span>Applicants</a
+        ><a class="side-link" href="employer-profile.html"
+          ><span>▣</span>Company Profile</a
+        >
+        
+        
+      </aside>
+      <main class="dash-main" id="main"><div class="employer-heading"><div><div class="eyebrow text-green-700" style="color:#15803d">PESO PIO DURAN &middot; EMPLOYER</div><h1>Manage Jobs</h1></div><span class="muted text-xs">Prototype &middot; Sample data</span></div><div class="mb-6"><a class="link-green" href="employer-post-job.html">+ Create a vacancy</a></div><section class="panel mb-6"><h2>Company vacancies</h2><div class="mt-5"><div class="employer-table-wrap"><table class="employer-table"><thead><tr><th>Vacancy</th><th>Status</th><th>Applications</th><th>Action</th></tr></thead><tbody><tr><td>Junior Web Developer</td><td>Published</td><td>12</td><td><a class="link-green" href="employer-applicants.html">Review applicants</a></td></tr><tr><td>Office Assistant</td><td>Published</td><td>10</td><td><a class="link-green" href="employer-applicants.html">Review applicants</a></td></tr><tr><td>Data Encoder</td><td>Draft</td><td>0</td><td><a class="link-green" href="employer-post-job.html">Review draft</a></td></tr></tbody></table></div></div></section><section class="panel mb-6"><h2>Posting and recommendations</h2><div class="mt-5"><p class="muted text-sm leading-7">Approved employers can publish vacancies. Job skills, relevant experience, and keywords provide inputs for applicant job recommendations and employer r?sum? filtering. Draft vacancies are not included in recommendations.</p></div></section><section class="panel mb-6"><h2>Vacancy actions preview</h2><div class="mt-5"><label class="field">Vacancy<select><option>Junior Web Developer</option><option>Office Assistant</option><option>Data Encoder (Draft)</option></select></label><div class="flex flex-wrap gap-3"><button type="button" disabled class="btn btn-primary opacity-50 cursor-not-allowed">Close vacancy</button><button type="button" disabled class="btn btn-primary opacity-50 cursor-not-allowed">Reopen vacancy</button></div><p class="text-xs text-gray-500 mt-4">Static preview only. Changes, messages, uploads, and decisions are not saved.</p></div></section><footer class="footer">
+      <div class="container">
+        <span>© 2026 PESO Pio Duran</span
+        ><span>Static employer UI prototype · No actual applicant data</span>
+      </div>
+    </footer></main>
+    </div>
+    
+  </body>
+</html>
